@@ -1,0 +1,76 @@
+/* Selectors */
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    width: 100%;
+    background-color: #190f0b;
+}
+
+h1{
+    color: #896350;
+    text-align: center;
+}
+p{
+    color: #694e3e;
+}
+a.back{ /*Selector chaining*/
+    text-decoration: none;
+    color: #c2a08f;
+    font-size: 20px;
+    font-weight: 900;
+}
+a.back:hover{ /*Selector chaining-Pseudo class selector*/
+    color: #715541;
+    font-size: 24px;
+}
+ul.list{ /*Selector chaining*/
+    color: #715541;
+    list-style: url(../images/coffee.png);
+}
+table{
+    border: solid;
+    border-radius: 5px;
+    background-color: #8c837f;
+    font-size: 15px;
+    color: #3c3634;
+}
+td{
+    border: solid;
+    border-left: none;
+    border-right: none;
+} 
+img.creator{
+    width: 80px;
+    height: 100px;
+}
+
+/* Class */
+.img{
+    text-align: center;
+}
+[src]{  /*Atribute selector*/
+    width: 700px;
+    border-radius: 5px;
+}
+
+/* Id */
+#firstContent{
+    width: 800px;
+    margin-left: 25%;
+}
+#firstContent ul li a{
+    text-decoration: none;
+    color: #c2a08f;
+}
+#firstContent ul li a:hover{
+    font-size: 22px;
+    color: #715541;
+    font-weight: bold;
+}
+#box1,#box2,#box3,#box4,#box5{
+    margin-left: 31%;
+    width: 600px;
+    color: rgb(255, 255, 255);
+}
